@@ -1,0 +1,363 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.part1{
+    display: flex;
+    background-color:rgb(50,54,77);
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 14%;
+    width: 90%;
+}
+
+.text1{
+    color: white;
+    font-size: 6rem;
+    font-family: sans-serif;
+    width: 95%;
+    letter-spacing: -0.2px;
+    font-weight: 750;
+}
+
+.text2{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin-top: -4%;
+    margin-bottom: 2%;
+    line-height: 180%;
+    color: white;
+}
+
+.b1{
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #38536a;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 14px 20px;
+    margin-bottom: 7%;
+    background-color: white;
+}
+
+.pic{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+
+.img1{
+    width: 78%;
+}
+
+
+
+
+
+.part2{
+    display: flex;
+    background-color: rgb(244,249,253);
+    align-items: flex-start;
+}
+
+.part21{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 9%;
+}
+
+.pic1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.b2{
+    background-color: blue;
+    color: white;
+    margin-top: 25%;
+    margin-bottom: 120%;
+}
+
+li::marker{
+    color: blue;
+    font-size: 30px;
+}
+
+.pic11{
+    width: 90%;
+    margin-top: 10rem;
+    margin-left: -2%;
+}
+
+.title{
+    color: #006dff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 60%;
+    margin-top: -1%;
+}
+
+.nf2{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 2rem;
+    width: 80%;
+    margin-top: -4%;
+}
+
+.lipm2{
+    margin-top: 1%;
+}
+
+.p2b{
+    background-color: white;
+}
+
+.hw1{
+    width: 58%;
+}
+.pic12{
+    width: 200%;
+    margin-left: -125%;
+    margin-top: 63%;
+    margin-bottom: 25%;
+}
+
+.sb{
+    margin-top: 1%;
+}
+
+.sb1{
+    width:62%;
+}
+.wip{
+    width: 60%;
+}
+
+.f2, .f3{
+    display: flex;
+}
+
+.f3{
+    width: 40%;
+    margin-top: -4%;
+    margin-left: 1%;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+.fm{
+    margin-left: 25%;
+}
+
+.fm1{
+    width: 80%;
+}
+
+.fm2{
+    width: 40%;
+    margin-left: -25%;
+}
+.fs{
+    margin-left: 8%;
+}
+
+.f2{
+    margin-top: 2%;
+}
+
+.pic13{
+    width: 200%;
+    margin-left: -60%;
+    margin-top: 57%;
+}
+
+.liw{
+    width: 90%;
+}
+
+.pic14{
+    margin-top: 40%;
+    margin-left: -15%;
+}
+
+.nfb{
+    width: 60%;
+}
+
+.ou{
+    font-family: sans-serif;
+    width: 50%;
+    line-height: 35px;
+}
+.pic15{
+    width: 220%;
+    margin-left: -110%;
+    margin-top: 80%;
+}
+
+
+.fbo{
+    width: 58%;
+}
+
+.pic16{
+    width: 245%;
+    margin-left: -150%;
+    margin-top: 50%;
+}
+
+
+.siw{
+    width: 65%;
+}
+
+.pic17{
+    width: 200%;
+    margin-left: -100%;
+    margin-top: 20%;
+}
+
+.ebw{
+    width: 60%;
+}
+
+.ch4{
+    font-size: 20px;
+    color: #006dff;
+    font-family: sans-serif;
+}
+
+.cldiv{
+    background-color: rgb(244,249,253);
+    margin-bottom: 2%;
+    width: 60%;
+}
+
+.pl{
+    margin-left: 4%;
+    font-family: sans-serif;
+}
+
+.pics img{
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.pic18{
+    width: 170%;
+    margin-left: -80%;
+    margin-top: 75%;
+}
+
+.ssf{
+    width: 65%;
+}
+
+.usfa{
+    width: 60%;
+}
+
+.pic19{
+    width: 160%;
+    margin-left: -50%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+.jct{
+    width: 67%;
+}
+
+.tfo{
+    width: 80%;
+}
+
+.ets{
+    width: 75%;
+}
+
+.rma{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+}
+
+.pic20{
+    width: 150%;
+    margin-left: -50%;
+    margin-top: 63%;
+}
+
+
+.aasr{
+    width: 160%;
+}
+
+
+.pic21{
+    width: 150%;
+    margin-left: -90%;
+    margin-top: 90%;
+    margin-bottom: -0.6%;
+}
+
+.nf12{
+    width: 58%;
+}
+
+.lastd{
+    background-color: rgb(50,54,77);
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lastp1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    width: 30%;
+    font-family: sans-serif;
+}
+
+.lastp2{
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -8%;
+    margin-left: -8%;
+}
+
+.lastbut{
+    height: 3rem;
+    width: 25%;
+    color: rgb(50,54,77);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+
+.st{
+    font-weight: lighter;
+}
