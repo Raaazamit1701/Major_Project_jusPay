@@ -8,8 +8,9 @@ body{
     background-color:rgb(50,54,77);
     flex-direction: column;
     padding-left: 10%;
-    padding-top: 14%;
+    padding-top: 12%;
     width: 90%;
+    margin-top: -6%;
 }
 
 .text1{
@@ -17,7 +18,7 @@ body{
     font-size: 6rem;
     font-family: sans-serif;
     width: 95%;
-    letter-spacing: -0.2px;
+    letter-spacing: -04px;
     font-weight: 750;
 }
 
@@ -360,4 +361,52 @@ h2{
 
 .st{
     font-weight: lighter;
+}
+
+
+
+.nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(50,54,77);
+}
+
+.n_logo{
+    margin-left: 40px;
+}
+
+.n_items{
+    margin-left: 200px;
+}
+
+.n_items a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 4rem;
+    font-size: 14px; 
+    font-family: sans-serif;
+}
+
+
+.n_button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.n_button a{
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
 }
