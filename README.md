@@ -20,7 +20,7 @@ Getting Started
 Clone the repository: git clone [https://github.com/Raaazamit1701/Major_Project_jusPay.git] Open the index.html file in your preferred web browser. Explore the cloned juspay website and its functionalities.
     
   # Team Info:-
-1. Amit Raj (Capitain)<br>
+1. Amit Raj (Captain)<br>
    - [Homepage](https://raaazamit1701.github.io/Major_Project_jusPay/index.html)
    - [SME](https://md-ismaeel.github.io/Axis-Bank/ESM-Ismail/README-Homepage/)
 2. Anand Sahani <br>
