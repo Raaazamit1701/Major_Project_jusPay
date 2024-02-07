@@ -317,7 +317,7 @@ h2{
     width: 150%;
     margin-left: -90%;
     margin-top: 90%;
-    margin-bottom: -0.6%;
+    margin-bottom: -0.5%;
 }
 
 .nf12{
@@ -410,6 +410,9 @@ h2{
     font-weight: bold;
     font-family: sans-serif;
 }
+.lastbut{
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width:768px){
@@ -465,7 +468,7 @@ h2{
     .pic{
         position: absolute;
         top: 14%;
-        left: 34%;
+        left: 11%;
         width: 80%;
     }
 
@@ -502,7 +505,7 @@ h2{
 
     .lipm2{
         margin-top: 1%;
-        width: 152%;
+        width: 145%;
         margin-left: -3%;
     }
     li::marker{
@@ -581,10 +584,10 @@ h2{
         width: 202%;
     }
     .joe{
-        width: 317%;
+        width: 200%;
     }
     .lipm3{
-        width: 226%;
+        width: 190%;
     }
     .pic14 {
         margin-top: 125%;
@@ -690,7 +693,7 @@ h2{
         width: 106%;
         margin-left: -47%;
         margin-top: 69%;
-        margin-bottom: -1%;
+        margin-bottom: -0.9%;
     }
     .lastd {
         background-color: rgb(50,54,77);
@@ -723,10 +726,14 @@ h2{
         border: none;
         background-color: white;
         font-weight: 600;
+        cursor: pointer;
     }
     .img1{
         max-width: 140%;
         width: 90%;
         margin-left: 18%;
+    }
+    .liw{
+        width: 80%;
     }
 }
