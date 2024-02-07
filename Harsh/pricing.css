@@ -1,0 +1,418 @@
+html{
+    font: 112.5%/1.45em georgia,serif;
+    width: 100%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+/*<--------Header----->*/
+.nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.n_logo{
+    margin-left: 40px;
+}
+.n_items{
+    margin-left: 130px;
+}
+.n_items a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 4rem;
+    font-size: 15px; 
+}
+.n_button{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.n_button a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.price
+{ 
+   margin-top: 67px;
+    grid-column: span 12;
+    letter-spacing: -.03em;
+    
+
+}
+.price h1{
+    color: #151a1f;
+    letter-spacing: -.03em;
+   text-decoration: none;
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: 600;
+    margin-top: 0;
+    font-style: normal;
+    
+}
+/*<--------Price section----->*/
+.pricetab
+{
+  
+ align-items: stretch;
+ display: flex;
+ gap: 32px;
+ grid-column: span 12;
+ margin-left: 8px;
+ padding: 0 ;
+ width: 100%;
+
+}
+.pricenav
+{
+    border: 1px solid #dedee9;
+    border-radius: 20px;
+    padding: 0;
+    width: 365px;
+    
+
+
+}
+.pricenav .tabnavitem
+{
+    align-items: center;
+    color: #151a1f;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter V;
+    font-size: 18px;
+    font-weight: 560;
+    gap: 0.625rem;
+    padding: 1.25rem;
+    
+}
+
+
+.pricenav .tabnavitem img
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0;
+    border-style: none;
+}
+
+
+h3{
+    -webkit-font-smoothing: antialiased;
+}
+p{
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+
+.pricecont
+{
+    border: 1px solid #dedee9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    width: 838px;
+
+
+}
+.pricecontheader{
+    color: #272f38;
+    font-family: Inter V;
+    font-size: 24px;
+    font-weight: 580;
+    letter-spacing: -.03em;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+.pricecontheader p{
+    color: #32313a;
+    font-family: Inter V;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -.024px;
+    line-height: 160%;
+    margin-bottom: 0;
+    margin-top: 0.75rem 
+}
+.hypertextprice {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.startup {
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+.planHeading{
+    color: #272f38;
+    font-family: Inter V;
+    font-size: 22px;
+    font-weight: 660;
+    line-height: 120%;
+}
+.pricingAmount
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    margin-top: 1.25rem 
+}
+.startup .pricingAmount .optionOne {
+    display: flex;
+    flex-direction: column;
+}
+.priceStrikethrough
+{
+    color: grey;
+    font-size: 14px;
+    font-weight: 580;
+    line-height: 120%;
+    text-decoration: line-through;
+}
+.actualPrice
+{
+    color: #016df7;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 2px
+}
+.actualPriceSub
+{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px ;
+    color: #016df7;
+    font-style: normal;
+    line-height: 120%;
+}
+.startup .amountOr{
+    color: #151a1f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 580;
+    line-height: 120%;
+}
+.priceStrikethrough {
+    color: grey;
+    font-size: 14px;
+    font-weight: 580;
+    line-height: 120%;
+    text-decoration: line-through;
+}
+.pricecont .postScript{
+    color: #373737;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 580;
+    line-height: 120%;
+    margin-top: 1rem;
+}
+.pricingCta {
+    background: var(--Linear-Blue-Gradient,#006bf4);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 89%;
+}
+.startup{
+    background-image: url(tabnavitemcart/startup\ bg.jpg);
+}
+.hypertextprice{
+    display: flex;
+}
+.hypertextprice .pricingPoints {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.pricingPoints {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.pricingPoints .pointsHeader {
+    color: #151a1f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 580;
+    line-height: 120%;
+}
+.pointsContainer {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-top: 20px;
+    
+}
+ul{
+    list-style: circle;
+    margin: 0 0 1.45rem 1.45rem;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;;
+}
+.pointsContainer li {
+    background: url(tabnavitemcart/tick-circle.svg) no-repeat 0;
+    background-size: 20px 20px;
+    color: #151a1f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    line-height: 20px;
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+.enterprise{
+    background-image: url(tabnavitemcart/startup\ bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+.enterprise .pricingAmount {
+    height: 105px;
+}
+.enterprise .pricingCta {
+    margin-top: 33px;
+}
+.enterprise .pricingPoints{
+    height: 366px;
+}
+/*<-------Support----->*/
+.support{
+    margin-left: 344px;
+}
+.supporticon{
+    display: flex;
+    margin-left: 15px;
+}
+.supporticon img{
+    margin-left: 12px;
+}
+.plugin
+{
+    margin-left: 340px;
+    align-items: stretch;
+}
+.plugin a{
+    color: #006bf4;
+}
+/*<-------footer----->*/
+footer{
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+  
+    width: 100%;
+    padding-bottom: 11em;
+    padding-top: 10em;
+    position: relative;
+    z-index: 5;
+    align-content: stretch;
+    background-color:#f4f9fd;
+    
+}
+footer a{
+    text-decoration: none;
+}
+footer nav{
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 400;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .col1
+{
+    grid-column-start: 2;
+}
+footer .col2 
+{
+    grid-column-start: 4;
+    justify-content: space-between;
+}
+footer .col3
+{
+    grid-column-start: 6;
+}
+footer .col4
+{
+    grid-column-start: 8;
+}
+footer .col5
+{
+    gap: 60px;
+    grid-column-start: 10;
+    grid-column-end: 12;  
+}
+footer .col5 .footericon{
+    display: flex;
+    gap: 20px;
+}
+footer .col5 .footericon img{
+    width: 120px;
+    object-fit: contain;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0;
+    border-style: none;
+    padding-top: 80px;
+}
+footer .col5 .footericon2{
+    display: flex;
+    gap: 32px;
+}
+footer .col5 .footericon2 figure{
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+footer .col5 .footericon2 {
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
