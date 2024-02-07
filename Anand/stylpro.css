@@ -410,3 +410,323 @@ h2{
     font-weight: bold;
     font-family: sans-serif;
 }
+
+
+@media only screen and (max-width:768px){
+    .part1{
+        display: flex;
+        background-color:rgb(50,54,77);
+        flex-direction: column;
+        padding-left: 10%;
+        padding-top: 12%;
+        width: 90%;
+        margin-top: -6%;
+    }
+
+    .text1{
+        color: white;
+        font-size: 2.9rem;
+        font-family: sans-serif;
+        letter-spacing: -02px;
+        font-weight: 750;
+        margin-left: -3%;
+        margin-top: -4%;
+    }
+
+    .text2{
+        font-size: 0.7rem;
+        font-family: sans-serif;
+        margin-top: -2%;
+        margin-bottom: 2%;
+        line-height: 180%;
+        color: white;
+        margin-left: -3%;
+        width: 60%;
+    }
+
+    .brme{
+        display: none;
+    }
+    
+    .b1{
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-family: sans-serif;
+        color: #38536a;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        padding: 14px 20px;
+        margin-bottom:70%;
+        margin-left: -3%;
+        background-color: white;
+    }
+    .pic{
+        position: absolute;
+        top: 14%;
+        left: 34%;
+        width: 80%;
+    }
+
+
+    .part2{
+        display: flex;
+        background-color: rgb(244,249,253);
+        align-items: flex-start;
+    }
+    .pic1{
+        margin-left: 6%;
+        margin-top: 10%;
+        width: 4.5%;
+    }
+    .title{
+        color: #006dff;
+        font-size: 0.7rem;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+    h2{
+        font-size: 30px;
+        font-family: sans-serif;
+        width: 134%;
+        margin-top: -1%;
+    }
+    .nf2{
+        font-size: 10px;
+        font-family: sans-serif;
+        line-height: 1.2rem;
+        width: 164%;
+        margin-top: -4%;
+    }
+
+    .lipm2{
+        margin-top: 1%;
+        width: 152%;
+        margin-left: -3%;
+    }
+    li::marker{
+        color: blue;
+        font-size: 30px;
+    }
+
+    .b2{
+        background-color: blue;
+        color: white;
+        margin-top: 25%;
+        margin-bottom: 120%;
+    }
+
+    .pic11{
+        width: 125%;
+        margin-top: 30rem;
+        margin-left: -75%;
+        margin-bottom: 18%;
+    }
+    .pic12{
+        width: 215%;
+        margin-left: -220%;
+        margin-top: 170%;
+        margin-bottom: 25%;
+    }
+    .hw1{
+        width: 97%;
+    }
+    .nf12{
+        width: 111%;
+    }
+    .part21{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 9%;
+    }
+    .p2b{
+        background-color: white;
+    }
+    .wip {
+        width: 92%;
+    }
+    .sb{
+        margin-top: 1%;
+    }
+    
+    .sb1{
+        width:124%;
+    }
+    .fm{
+        margin-left: 80%;
+    }
+    
+    .fm1{
+        width: 100000000%;
+        font-size: 10px;
+        margin-right: -34%;
+        line-height: 150%;
+    }
+    
+    .fm2{
+        width: 40%;
+        margin-left: 38%;
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .pic13 {
+        width: 205%;
+        margin-left: -140%;
+        margin-top: 202%;
+    }
+    .roew{
+        width: 202%;
+    }
+    .joe{
+        width: 317%;
+    }
+    .lipm3{
+        width: 226%;
+    }
+    .pic14 {
+        margin-top: 125%;
+        margin-left: -92%;
+        width: 140%;
+        margin-bottom: 15%;
+    }
+    .ufs{
+        width: 51%;
+    }
+    .nfb {
+        width: 116%;
+    }
+    .ou {
+        font-family: sans-serif;
+        width: 105%;
+        line-height: 35px;
+        font-size: 10px;
+    }
+    .pic15 {
+        width: 240%;
+        margin-left: -198%;
+        margin-top: 230%;
+        margin-bottom: 30%;
+    }
+    .fbo{
+        width: 103%;
+    }
+    .pic16 {
+        width: 245%;
+        margin-left: -232%;
+        margin-top: 175%;
+        margin-bottom: 30%;
+    }
+    .siw{
+        width: 133%;
+    }
+    
+    .pic17 {
+        width: 220%;
+        margin-left: -160%;
+        margin-top: 95%;
+    }
+    .fmp{
+        width: 55%;
+    }
+    .ebw {
+        width: 60%;
+    }
+    .ch4 {
+        font-size: 15px;
+        color: #006dff;
+        font-family: sans-serif;
+    }
+    .cldiv {
+        background-color: rgb(244,249,253);
+        margin-bottom: 2%;
+        width: 116%;
+    }
+    .pics img {
+        margin-left: 2%;
+        margin-bottom: 5%;
+        margin-right: 2%;
+    }
+    .pic18 {
+        width: 186%;
+        margin-left: -173%;
+        margin-top: 415%;
+        margin-bottom: 30%;
+    }
+    .usfa {
+        width: 130%;
+    }
+    .ssf {
+        width: 125%;
+    }
+    .pic19 {
+        width: 190%;
+        margin-left: -122%;
+        margin-top: 128%;
+        margin-bottom: 40%;
+    }
+    .jct {
+        width: 133%;
+    }
+    .rma {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .pic20 {
+        width: 186%;
+        margin-left: -129%;
+        margin-top: 155%;
+        margin-bottom: 30%;
+    }
+    .rph{
+        width: 163%;
+    }
+    .aasr {
+        width: 242%;
+    }
+    .pic21 {
+        width: 106%;
+        margin-left: -47%;
+        margin-top: 69%;
+        margin-bottom: -1%;
+    }
+    .lastd {
+        background-color: rgb(50,54,77);
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .lastp1 {
+        font-size: 26px;
+        color: white;
+        font-weight: 600;
+        width: 72%;
+        font-family: sans-serif;
+    }
+    .lastp2 {
+        font-size: 12px;
+        color: white;
+        font-family: sans-serif;
+        margin-top: -46%;
+        margin-left: -21%;
+    }
+    .lastbut {
+        height: 3rem;
+        width: 31%;
+        color: rgb(50,54,77);
+        font-size: 13px;
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+        font-weight: 600;
+    }
+    .img1{
+        max-width: 140%;
+        width: 90%;
+        margin-left: 18%;
+    }
+}
