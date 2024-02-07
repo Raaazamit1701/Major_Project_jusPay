@@ -211,6 +211,12 @@ img {
     letter-spacing: 0;
     padding: 14px 20px;
 }
+
+
+
+
+
+
 /* below in line no. 222 framework- section css code*/
 .frame-background-main {
      inset: 0px;
@@ -585,3 +591,110 @@ footer .col5 .footericon2 {
     margin: 0 0 1.45rem;
     padding: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .Tech-header-navLinks {
+        display: none;
+    }
+
+    .tech-main-section {
+        grid-column: 2/span 10;
+        text-align: center;
+    }
+
+    .tech-main-section h2 {
+        font-size: 3rem;
+        margin: 5rem 0 0;
+    }
+
+    .tech-main-section p {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        grid-template-rows: auto auto auto; 
+        padding-bottom: 5em; 
+        padding-top: 5em; 
+    }
+
+    footer .col1,
+    footer .col2,
+    footer .col3,
+    footer .col4 {
+        grid-column: span 1; 
+    }
+
+    footer .col1,
+    footer .col2 {
+        grid-row: 1; 
+    }
+
+    footer .col3,
+    footer .col4 {
+        grid-row: 2; 
+    }
+    .footericon {
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+
+    footer .col5 {
+        grid-column: span 2; 
+        grid-row: 3; 
+        text-align: center; 
+    }
+    .Layout-module{
+        margin-left: 80px;
+    }
+
+    footer nav {
+        text-align: center; 
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+      display: block;
+    }
+    
+    
+    .tech-header-navLinks {
+      flex-direction: column;
+      align-items: center;
+    }
+    .tech-header-navLinks{
+        display: none;
+    }
+    
+    .tech-nav-links-07 {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    
+    .tech-main-section h2 {
+      font-size: 3rem;
+      margin: 6rem 0 0;
+      text-align: center;
+    }
+    
+    .tech-main-section p {
+      width: 90%;
+      margin: 2rem auto;
+      text-align: center;
+    }
+    
+    .tech-home-contact_us {
+      grid-column: 1/span 12;
+      text-align: center;
+    }
+
+  }
+  
+  
