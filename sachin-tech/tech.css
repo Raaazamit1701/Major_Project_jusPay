@@ -172,16 +172,7 @@ img {
     color: #242424;
 }
 
-.Header-module--menu__btn--3bf75 {
-    display: none;
-    justify-self: end;
-    margin: 0.625rem 0.625rem 0.625rem 0;
-    max-height: 1.5rem;
-    object-fit: contain;
-}
-element.style {
-    background-color: #12161D;
-}
+
 
 .tech-main-section {
     color: #fff;
@@ -442,47 +433,40 @@ element.style {
     object-fit: contain;
 }
 
-.content, .calculator {
+
+
+
+
+
+.content.develop__cta {
     display: grid;
     grid-template-columns: repeat(24,1fr);
     grid-template-rows: auto;
 }
 
-.calculator-container {
+.develop__cta__container {
     background-color: var(--color-black1);
     padding: 8rem 0;
 }
-.calculator-background-main{
-    bottom: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1440px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
-
-.calculator-main {
+.develop__cta--main {
     display: grid;
     grid-column: 9/span 8;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,auto);
 }
 
-.calculator .plus {
+.develop__cta .img__plus {
     align-self: center;
     grid-column: 3/span 4;
     max-height: 12.6rem;
 }
-.calculator-main {
+.develop__cta--main {
     display: grid;
     grid-column: 9/span 8;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,auto);
 }
-.calculator h2 {
+.develop__cta h2 {
     color: var(--color-brand7);
     font-size: 4rem;
     grid-column: span 4;
@@ -490,7 +474,7 @@ element.style {
     line-height: 1;
 }
 
-.calculator p {
+.develop__cta p {
     color: var(--color-white1);
     font-family: var(--font-body);
     font-size: 1.125rem;
@@ -499,11 +483,11 @@ element.style {
     margin-bottom: 4em;
 }
 
-.collaborate-button {
+.develop__cta--btn {
     grid-column: span 3;
 }
 
-.calculator .star {
+.develop__cta .img__star {
     align-self: center;
     grid-column: 19/span 4;
     justify-self: center;
