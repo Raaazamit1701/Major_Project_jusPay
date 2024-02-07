@@ -212,36 +212,6 @@ img {
     padding: 14px 20px;
 }
 
-.bar1 , .bar2 , .bar3{
-    background-color: black;
-    height: 4px;
-    width: 36px;
-    margin: 3px;
-    border-radius: 10px;
-    
-}
- .hamburger{
-    display: none;
-    margin-right: 20px;
-}
-
-.mobileNav{
-    width: 80px;
-    background-color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    right: -160px;
-    padding: 16px;
-    transition: transform 0.3s;
-    display: none;
-    margin-top: 8vh;
-}
 
 
 
@@ -689,3 +659,42 @@ footer .col5 .footericon2 {
 
 }
 
+@media only screen and (max-width: 430px) {
+    .container {
+      display: block;
+    }
+    
+    
+    .tech-header-navLinks {
+      flex-direction: column;
+      align-items: center;
+    }
+    .tech-header-navLinks{
+        display: none;
+    }
+    
+    .tech-nav-links-07 {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    
+    .tech-main-section h2 {
+      font-size: 3rem;
+      margin: 6rem 0 0;
+      text-align: center;
+    }
+    
+    .tech-main-section p {
+      width: 90%;
+      margin: 2rem auto;
+      text-align: center;
+    }
+    
+    .tech-home-contact_us {
+      grid-column: 1/span 12;
+      text-align: center;
+    }
+
+  }
+  
+  
