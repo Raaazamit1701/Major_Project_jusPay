@@ -211,6 +211,42 @@ img {
     letter-spacing: 0;
     padding: 14px 20px;
 }
+
+.bar1 , .bar2 , .bar3{
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+    
+}
+ .hamburger{
+    display: none;
+    margin-right: 20px;
+}
+
+.mobileNav{
+    width: 80px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -160px;
+    padding: 16px;
+    transition: transform 0.3s;
+    display: none;
+    margin-top: 8vh;
+}
+
+
+
+
+
 /* below in line no. 222 framework- section css code*/
 .frame-background-main {
      inset: 0px;
@@ -585,3 +621,71 @@ footer .col5 .footericon2 {
     margin: 0 0 1.45rem;
     padding: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .Tech-header-navLinks {
+        display: none;
+    }
+
+    .tech-main-section {
+        grid-column: 2/span 10;
+        text-align: center;
+    }
+
+    .tech-main-section h2 {
+        font-size: 3rem;
+        margin: 5rem 0 0;
+    }
+
+    .tech-main-section p {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        grid-template-rows: auto auto auto; 
+        padding-bottom: 5em; 
+        padding-top: 5em; 
+    }
+
+    footer .col1,
+    footer .col2,
+    footer .col3,
+    footer .col4 {
+        grid-column: span 1; 
+    }
+
+    footer .col1,
+    footer .col2 {
+        grid-row: 1; 
+    }
+
+    footer .col3,
+    footer .col4 {
+        grid-row: 2; 
+    }
+    .footericon {
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+
+    footer .col5 {
+        grid-column: span 2; 
+        grid-row: 3; 
+        text-align: center; 
+    }
+    .Layout-module{
+        margin-left: 80px;
+    }
+
+    footer nav {
+        text-align: center; 
+    }
+
+}
+
