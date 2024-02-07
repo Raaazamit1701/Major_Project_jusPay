@@ -855,7 +855,13 @@ footer .col5 .footericon2 {
     padding: 0;
 }
 
-
+/* @media screen  and (min-width:500px) {
+    .companies_desc{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
 
 
 @media  screen and (min-width:1100px){
