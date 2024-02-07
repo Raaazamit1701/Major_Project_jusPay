@@ -415,6 +415,171 @@ h2{
 }
 
 
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    max-width: 100%;
+    padding-bottom: 11em;
+    padding-top: 10em;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    align-content: stretch;
+    background-color:#f4f9fd;
+}
+footer a{
+    text-decoration: none;
+}
+footer nav{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+
+}
+footer nav h3{
+    color: #000000cc;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 24.5px;
+    
+}
+footer nav a{
+    color: #000000cc;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+
+footer .col1
+{
+    grid-column-start: 2;
+}
+footer .col2 
+{
+    grid-column-start: 4;
+    justify-content: space-between;
+}
+footer .col3
+{
+    grid-column-start: 6;
+}
+footer .col4
+{
+    grid-column-start: 8;
+}
+footer .col5
+{
+    gap: 60px;
+    grid-column-start: 10;
+    grid-column-end: 12;  
+}
+footer .col5 .footericon{
+    display: flex;
+    gap: 20px;
+}
+footer .col5 .footericon img{
+    width: 80px;
+    object-fit: contain;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0;
+    border-style: none;
+}
+footer .col5 .footericon2{
+    display: flex;
+    gap: 32px;
+}
+footer .col5 .footericon2 figure{
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+footer .col5 .footericon2 {
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+
+.bar1 , .bar2 , .bar3{
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+    
+}
+ .hamburger{
+    display: none;
+    margin-right: 20px;
+}
+
+
+
+.bar1 , .bar2 , .bar3{
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+    
+}
+ .hamburger{
+    display: none;
+    margin-right: 20px;
+}
+
+.mobileNav{
+    width: 80px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -160px;
+    padding: 16px;
+    transition: transform 0.3s;
+    display: none;
+    margin-top: 8vh;
+}
+
+
+.openDrawer{
+    transform: translateX(-840px);
+}
+.mobileNav a{
+    text-decoration: none;
+    color: rgb(141, 130, 130);
+    margin: 10px 0;
+    height: 20px;
+    width: 100px;
+    /* background-color: #8B8970; */
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.mobileNav a:hover{
+    text-decoration: none;
+    /* background: rgb(210, 216, 210); */
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
 @media only screen and (max-width:768px){
     .part1{
         display: flex;
@@ -645,7 +810,7 @@ h2{
     .cldiv {
         background-color: rgb(244,249,253);
         margin-bottom: 2%;
-        width: 116%;
+        width: 128%;
     }
     .pics img {
         margin-left: 2%;
@@ -736,4 +901,118 @@ h2{
     .liw{
         width: 80%;
     }
+
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        grid-template-rows: auto auto auto; 
+        padding-bottom: 5em; 
+        padding-top: 5em; 
+    }
+
+    footer .col1,
+    footer .col2,
+    footer .col3,
+    footer .col4 {
+        grid-column: span 1; 
+    }
+
+    footer .col1,
+    footer .col2 {
+        grid-row: 1; 
+    }
+
+    footer .col3,
+    footer .col4 {
+        grid-row: 2; 
+    }
+    .footericon {
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+
+    
+
+    footer .col5 {
+        grid-column: span 2; 
+        grid-row: 3; 
+        text-align: center; 
+    }
+    .Layout-module{
+        margin-left: 80px;
+    }
+
+    footer nav {
+        text-align: center; 
+    }
+    
+    .n_items{
+        display: none;
+    }
+    .n_button{
+        display: none;
+    }
+
+    .nav .hamburger{
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        z-index: 2;
+    }
+
+
+    .animateBar1{
+        animation: flipBar1 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar2{
+        animation: fadeBar2 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar3{
+        animation: flipBar3 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    .mobileNav{
+        width: 100%;
+        background-color: #fff;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        right: -840px;
+        padding: 16px;
+        transition: transform 0.3s;
+        margin-top: 12vh;
+        
+    }
+
+    @keyframes flipBar1 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(45deg) translate(4px , 10px);
+        }
+    }
+    @keyframes fadeBar2 {
+        from{
+            transform: scaleX(1);
+            opacity : 1;
+        }to{
+            transform: scaleX(0);
+            opacity : 0;
+        }
+    }
+    @keyframes flipBar3 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(-45deg) translate(4px , -10px);
+        }
+    }
+
 }
