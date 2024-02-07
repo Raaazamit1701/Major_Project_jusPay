@@ -8,16 +8,17 @@
     font-family: sans-serif;
 }
 
+
 nav{
     width: 100%;
  display: flex;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: space-between; 
   position: fixed;  
   align-items: center;
  top: 0;
  left: 0;
- align-items: center;
+ /* align-items: center; */
  padding: 20px 100px;
  font-style: normal;
     font-weight: 400;
@@ -25,7 +26,7 @@ nav{
     line-height: 20px;
 }
 nav ul{
-    display: flex;
+     display: flex; 
     flex-direction: row;
     align-items: center;
     gap: 20px;
@@ -78,6 +79,7 @@ nav .hamburger{
     text-align: center;
     align-items: center;
     color: #fdfdfd;;
+    width: 100%;
 }
 .home h4{
     font-size: 20px;
@@ -200,7 +202,7 @@ color: #333;
 footer{
     background-color: #333333;
     color: white;
-     padding: 3rem 20vw; 
+     padding: 3rem 10vw; 
 }
 
 .footer_content{
@@ -215,7 +217,7 @@ footer{
     flex-shrink: 0;
 } */
 .footer_list{
-    width: 10%; 
+    width: 6%; 
     flex-grow: 0;
     flex-shrink: 0;
     gap: 60px;
@@ -243,8 +245,13 @@ footer .copy_right{
     text-align: center;
     line-height: 1.5rem;
 }
+.footer_list img{
+    padding: 3px 0;
+}
 
-
+.carousel-control{
+    opacity: 0;
+}
 
 
 @media only screen and (max-width: 768px){
@@ -282,4 +289,3 @@ footer .copy_right{
         width: 20%; 
     }
 }
-    
