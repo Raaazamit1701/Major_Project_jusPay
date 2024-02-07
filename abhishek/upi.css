@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@100&display=swap');
+* h1,h2,h3,h4,p,a {
+    font-family: sans-serif;
+}
+.upi{
+    padding: 5rem 10vw;
+}
+
+.list_img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    
+}
+.container{
+    width: 30%;
+    /* border: 2px solid blue; */
+    padding: 20px 20px 10px 0px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid green; */
+    aspect-ratio: 3/2 auto;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+.container .title a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #474747;;
+    text-decoration: none;
+}
+.container h3{
+margin-top: 0.75rem;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+color: #333;
+}
+.container p{
+    margin-top: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #474747;
+}
+.container h4{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 16px;
+} 
+.container h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555;
+}
