@@ -66,7 +66,7 @@ To get started with the Juspay Website Clone, follow these steps:
 ![Laptop View](./Assets/readmeimg/Screenshot%202024-02-08%20103031.png)
 
 ### Mobile View
-![Mobile View](./Assets/readmeimg/Screenshot%202024-02-08%20103219.png)
+![Mobile View](./Assets/readmeimg/mobail.png)
 
 # Conclusion
 
