@@ -33,4 +33,4 @@ iframe: Embeds an inline frame, often used for including external content.
 
 
 In the creation of this webpage, I employed the power of the CSS position property to meticulously arrange images and text elements. The position property allows me to precisely control the placement of each element on the page, ensuring a visually appealing and structured layout. By strategically applying values such as "relative," "absolute," or "fixed" to the position property, I can seamlessly position images alongside text, creating a harmonious design that enhances the overall user experience. This approach grants me the flexibility to finely tune the visual presentation, resulting in a polished and well-organized webpage.
-https://www.linkedin.com/feed/update/urn:li:activity:7161111141471969281/
+[https://www.linkedin.com/feed/update/urn:li:activity:7161111141471969281/](https://www.linkedin.com/posts/activity-7161240612090908672-_-xN?utm_source=share&utm_medium=member_desktop)https://www.linkedin.com/posts/activity-7161240612090908672-_-xN?utm_source=share&utm_medium=member_desktop
