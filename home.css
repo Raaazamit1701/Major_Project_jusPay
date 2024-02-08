@@ -957,9 +957,11 @@ footer .col5 .footericon2 {
 .mobileNav a:hover{
     text-decoration: none;
     /* background: rgb(210, 216, 210); */
-    color: rgb(70, 132, 255);
+    /* color: rgb(70, 132, 255); */
     font-weight: bold;
     font-size: 24px;
+    /* background-color: lightgreen; */
+    /* text-decoration: wavy; */
     
     
 }
@@ -1083,6 +1085,7 @@ footer .col5 .footericon2 {
         margin-top: 0px;
         
     }
+   
 
     .article {
         width: 40%;
@@ -1236,6 +1239,11 @@ footer .col5 .footericon2 {
         text-align: left;
     }
 
+    .sucess_des_2 h1 {
+        font-size: 1.5rem;
+        padding-right: 100px;
+    }
+
     .sucess_containt{
         width: 100%;
         height: auto;
@@ -1332,7 +1340,7 @@ footer .col5 .footericon2 {
     }
 
     .sucess_text{
-        width: 90%;
+        width: 80%;
         margin: 20px 60px 70px;
         
     }
@@ -1348,7 +1356,7 @@ footer .col5 .footericon2 {
         display: flex;
         /* margin-top: 20px; */
         /* margin-bottom: 20px; */
-        margin-left: 100px;
+        margin-left: 60px;
     }
 
     .sucess_des_3 {
