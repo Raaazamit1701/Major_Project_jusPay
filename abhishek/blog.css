@@ -285,6 +285,7 @@ footer .copy_right{
     .footer_content{
         display: flex;
         flex-direction: column;
+        
     }
     .footer_list{
         width: 20%; 
