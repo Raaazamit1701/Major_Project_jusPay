@@ -515,15 +515,7 @@ footer .col5 .footericon2 {
     padding: 0;
 }
 
-.bar1 , .bar2 , .bar3{
-    background-color: black;
-    height: 4px;
-    width: 36px;
-    margin: 3px;
-    border-radius: 10px;
-    
-}
- .hamburger{
+.hamburger{
     display: none;
     margin-right: 20px;
 }
@@ -538,10 +530,7 @@ footer .col5 .footericon2 {
     border-radius: 10px;
     
 }
- .hamburger{
-    display: none;
-    margin-right: 20px;
-}
+ 
 
 .mobileNav{
     width: 80px;
