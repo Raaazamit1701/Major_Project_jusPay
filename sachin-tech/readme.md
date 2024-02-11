@@ -1,26 +1,29 @@
+
 # JusPay
 
 Juspay is a leading Indian fintech company that specializes in providing innovative payment solutions for digital businesses. Their services include payment gateway integration, digital wallet solutions, and recurring payments, all aimed at delivering a seamless and secure payment experience for businesses and consumers. With a focus on innovation and reliability, Juspay is driving the evolution of digital payments in the global financial landscape.
 
 
-# Contribution to Juspay Blogpage,Paymentpage,Techpage,Case Studiespage,Spotlight,Newsroom
+# Contribution to Juspay Tech_section
 
-## Abhishek A L Contribution
-- *Name*: Abhishek A L
-- *Role*: Team Member 
-- *Contribution*: Created the blogpage of Juspay using HTML, CSS, and JavaScript.
-- *Key Features*: Implemented a responsive design catering to both laptop and mobile views.
-## [LinkedIn Profile](https://www.linkedin.com/posts/activity-7161240612090908672-_-xN?utm_source=share&utm_medium=member_desktop)
+## Sachin kumar Contribution
+- **Name**: Sachin kumar
+- **Role**: Team member
+- **Contribution**: Created the homepage of Juspay using HTML, CSS, and JavaScript.
+- **Key Features**: Implemented a responsive design catering to both laptop and mobile views.
+
+## Linkdin Post[Connect with me on LinkedIn](https://www.linkedin.com/posts/sachin-kumar-05a01029a_frontend-html5-css3-activity-7161120504207020032-5ySr?utm_source=share&utm_medium=member_desktop)
+
+
 
 ## Technologies Used
-- *HTML*: Used for structuring the content of the webpage.
-- *CSS*: Utilized for styling and layout design, ensuring an aesthetically pleasing interface.
-- *JavaScript*: Implemented for adding interactivity and dynamic elements to the webpage.
-- *Bootstrap*: Used for cursor the content of the Blogpage.
+- **HTML**: Used for structuring the content of the webpage.
+- **CSS**: Utilized for styling and layout design, ensuring an aesthetically pleasing interface.
+- **JavaScript**: Implemented for adding interactivity and dynamic elements to the webpage.
 
 ## Purpose
-- *Clone Development*: Creating a replica of the Juspay blogpage,paymentpage,techpage,Case Studiespage,Spotlight,Newsroom using HTML, CSS, and JavaScript.
-- *Learning Experience*: Enhancing skills in web development and gaining practical experience with front-end technologies.
+- **Clone Development**: Creating a replica of the Juspay homepage using HTML, CSS, and JavaScript.
+- **Learning Experience**: Enhancing skills in web development and gaining practical experience with front-end technologies.
 
 # Getting Started
 
@@ -38,35 +41,19 @@ To get started with the Juspay Website Clone, follow these steps:
 
 
 ## Description
-- Created the initial structure of the blogpage using HTML.
-- Styled the blogpage layout using CSS to match the design guidelines of Juspay.
+- Created the initial structure of the homepage using HTML.
+- Styled the homepage layout using CSS to match the design guidelines of Juspay.
 - Implemented interactive elements such as navigation menu toggling and carousel sliders using JavaScript.
 - Ensured responsiveness and cross-browser compatibility of the homepage.
-- Implemented interactive elements such as carousel sliders using Bootstrap.
 
 ## Screenshots
-![Blogpage Screenshot](./Assets/readmeimg/bloghome.png)
+![Homepage Screenshot](/sachin-tech/images/home-tech_page.png)
 
-## Screenshots
-![Paymentpage Screenshot](./Assets/readmeimg/payment.png)
-
-## Screenshots
-![Techpage Screenshot](./Assets/readmeimg/tech.png)
-
-## Screenshots
-![Case study Screenshot](./Assets/readmeimg/casehome.png)
-
-## Screenshots
-![Spotlight Screenshot](./Assets/readmeimg/spotlight.png)
-
-## Screenshots
-![Newsroom Screenshot](./Assets/readmeimg/news.png)
-
-### Laptop View
-![Laptop View](./Assets/readmeimg/Screenshot%202024-02-08%20103031.png)
+### Footer section
+![Footer section](/sachin-tech/images/home-footer_section.png)
 
 ### Mobile View
-![Mobile View](./Assets/readmeimg/mobail.png)
+![Mobile View](/sachin-tech/images/Screenshot%202024-02-08%20093731.png)
 
 # Conclusion
 
@@ -84,3 +71,4 @@ As I continue my journey in web development, I look forward to applying the skil
 
 ## Gratitude
 I'm grateful for the opportunity to work on this project and would like to thank everyone involved for their support and guidance. It's been a rewarding experience, and I look forward to applying what I've learned to future projects and endeavors.
+

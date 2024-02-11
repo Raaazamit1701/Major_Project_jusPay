@@ -3,7 +3,7 @@
 Juspay is a leading Indian fintech company that specializes in providing innovative payment solutions for digital businesses. Their services include payment gateway integration, digital wallet solutions, and recurring payments, all aimed at delivering a seamless and secure payment experience for businesses and consumers. With a focus on innovation and reliability, Juspay is driving the evolution of digital payments in the global financial landscape.
 
 
-# Contribution to Juspay Homepage
+# Contribution to Juspay global and developers
 
 ## Sanjay Vishwakarma's Contribution
 - *Name*: Sanjay Vishwakarma

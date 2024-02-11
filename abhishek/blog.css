@@ -253,7 +253,15 @@ footer .copy_right{
     opacity: 0;
 }
 
-
+@media only screen and (max-width: 480px){
+    .main .container{
+        width: 100%;
+        /* border: 2px solid blue; */
+         padding: 10px 10px; 
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+}
 
 @media only screen and (max-width: 768px){
     .main{
@@ -285,8 +293,18 @@ footer .copy_right{
     .footer_content{
         display: flex;
         flex-direction: column;
+        
     }
     .footer_list{
         width: 20%; 
+    }
+}
+@media only screen and (max-width: 480px){
+    .main .container{
+        width: 100%;
+        /* border: 2px solid blue; */
+         padding: 10px 10px; 
+        flex-shrink: 0;
+        flex-grow: 0;
     }
 }
