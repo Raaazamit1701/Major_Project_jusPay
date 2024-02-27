@@ -328,6 +328,9 @@ ul{
 .support{
     margin-left: 344px;
 }
+.supporttext{
+    margin-top: 20px;
+}
 .supporticon{
     display: flex;
     margin-left: 15px;
